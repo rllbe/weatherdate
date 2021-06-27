@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Battery charge ETA shows under "Charging xx%" label. 
+It will appear only when charging and the ETA is evaluated. 
+Due to battery health the ETA may be inaccurate and is for reference only. </string>
+			<key>label</key>
+			<string>Lockscreen Weather Label</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>in.net.mario.tweak.weatherlabel/prefs</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>in.net.mario.tweak.weatherlabelprefs</string>
+			<key>key</key>
+			<string>weatherlabel</string>
+			<key>label</key>
+			<string>Enable</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>in.net.mario.tweak.weatherlabel/prefs</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>in.net.mario.tweak.weatherlabelprefs</string>
+			<key>key</key>
+			<string>chargetimeeta</string>
+			<key>label</key>
+			<string>Show battery charge ETA</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Weather App Icon Theming</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>in.net.mario.tweak.weatherlabel/prefs</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>in.net.mario.tweak.weatherlabelprefs</string>
+			<key>key</key>
+			<string>weatherappicon</string>
+			<key>label</key>
+			<string>Enable</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>in.net.mario.tweak.weatherlabel/prefs</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>in.net.mario.tweak.weatherlabelprefs</string>
+			<key>key</key>
+			<string>iconshowtemp</string>
+			<key>label</key>
+			<string>Temperature in icon</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>in.net.mario.tweak.weatherlabel/prefs</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>in.net.mario.tweak.weatherlabelprefs</string>
+			<key>key</key>
+			<string>badgeshowtemp</string>
+			<key>label</key>
+			<string>Temperature badge</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Replace "No more notifications" requires iOS 12 or newer. </string>
+			<key>label</key>
+			<string>Lockscreen Weather Abstract</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>in.net.mario.tweak.weatherlabel/prefs</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>in.net.mario.tweak.weatherlabelprefs</string>
+			<key>key</key>
+			<string>weatherabstract</string>
+			<key>label</key>
+			<string>Near the Clock</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>in.net.mario.tweak.weatherlabel/prefs</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>in.net.mario.tweak.weatherlabelprefs</string>
+			<key>key</key>
+			<string>weathergreeting</string>
+			<key>label</key>
+			<string>Replace "No more notifications"</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>"Cycle" means number of times of weather info updates. 
+(location update interval = weather update interval * location update cycle)
+Location update is completely disabled when cycle is set to 0. 
+You can consider it a standalone location permission to this tweak. </string>
+			<key>label</key>
+			<string>Miscellaneous</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>in.net.mario.tweak.weatherlabel/prefs</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>in.net.mario.tweak.weatherlabelprefs</string>
+			<key>key</key>
+			<string>showallplatters</string>
+			<key>label</key>
+			<string>Always show all notifications</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>in.net.mario.tweak.weatherlabel/prefs</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>in.net.mario.tweak.weatherlabelprefs</string>
+			<key>key</key>
+			<string>showallplatters2</string>
+			<key>label</key>
+			<string>Show all notifications when unlocked</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSStaticTextCell</string>
+			<key>label</key>
+			<string>Weather update interval (minute)</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>in.net.mario.tweak.weatherlabel/prefs</string>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<integer>60</integer>
+			<key>defaults</key>
+			<string>in.net.mario.tweak.weatherlabelprefs</string>
+			<key>isSegmented</key>
+			<true/>
+			<key>key</key>
+			<string>updateinterval</string>
+			<key>max</key>
+			<integer>1440</integer>
+			<key>min</key>
+			<integer>5</integer>
+			<key>segmentCount</key>
+			<integer>287</integer>
+			<key>showValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSStaticTextCell</string>
+			<key>label</key>
+			<string>Location update frequency (cycle)</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>in.net.mario.tweak.weatherlabel/prefs</string>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>defaults</key>
+			<string>in.net.mario.tweak.weatherlabelprefs</string>
+			<key>isSegmented</key>
+			<true/>
+			<key>key</key>
+			<string>updatecycle</string>
+			<key>max</key>
+			<integer>60</integer>
+			<key>min</key>
+			<integer>0</integer>
+			<key>segmentCount</key>
+			<integer>60</integer>
+			<key>showValue</key>
+			<true/>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>WeatherDate</string>
+</dict>
+</plist>

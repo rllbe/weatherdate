@@ -1,0 +1,9 @@
+Package: in.net.mario.tweak.weatherlabel
+Name: WeatherDate
+Depends: mobilesubstrate, firmware (>= 10.0)
+Version: 0.0.4
+Architecture: iphoneos-arm
+Description: Show weather info on lockscreen & stock weather app icon
+Maintainer: Mario Cheung
+Author: Mario Cheung
+Section: Tweaks
